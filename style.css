@@ -1,0 +1,61 @@
+
+
+body {
+	background : #ffffff;
+    font-family : verdana;
+	line-height : 1.8;
+
+}
+
+#container {
+	background : black;
+    padding-left : 7%;
+	padding-right : 7%;
+    padding-top : 7%;
+	padding-bottom : 7%;
+}
+
+#container h1 {
+	text-align : center;
+	color : white;
+}
+
+#container img {
+	max-height : 500px;
+	max-width : 500px;
+}
+
+#container p {
+	color : white;
+}
+
+button {
+	display : block;
+	background-color : red;
+	border-radius : 20px;
+	border : 4px;
+	text-align : center;
+	font-size : 17px;
+	padding : 30px;
+	width : 245px;
+	-webkit-transition : all 0.5s;
+	-moz-transition : all 0.5s;
+	-o-transition : all 0.5s;
+	transition : all 0.5s;
+	cursor : pointer;
+	margin-left : 35%;
+	margin-bottom : 4%;
+}
+button :hover {
+	background-color : white;
+}
+
+button a {
+	text-decoration : none;
+	color : black;
+}
+
+#video video {
+	width : 50%;
+}
+
